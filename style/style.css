@@ -1,26 +1,103 @@
-
 a{
     text-decoration: none;
 }
 ul,li{
     list-style-type: none;
 }
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
 
 
 /* common  css */
 
 .menu_bg{
-    background: rgb(62 87 209 / 68%);
+    background: #6047EC;
     width: 100%;
     height: 100px;
+    border-radius: 25px;
+    display: inline-block;
 }
-.menu_bg .menu span{
+.menu_bg .menu{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.menu_bg .menu .logo_img{
+    width: 100px;
+    height: 100%; 
+}
+.menu_bg .menu .logo_img img{
+    width: 95%;
+    height: 88%;
+    border-radius: 50%;
+    border: 6px solid #883b3b;
+}
+.menu_bg .menu .name{
+    width: 860px;
+    height: 100%;
+}
+.menu_bg .menu .name span{
     font-size: 2em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: brown;
+    color: #FFFFFF;
     text-align: center;
     display: block;
     line-height: 100px;
     font-weight:700;
 
+}
+.banner_bg{
+    background: #05064ef6;
+    width: 100%;
+    height: 500px;
+}
+.banner_bg{
+    background: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+.banner_bg .left-text{
+    font-family: 'Arvo', serif;
+    font-size: 3em;
+    margin-left: 20px;
+    padding-top: 50px;
+    display: block;
+    position: relative;
+}
+.banner_bg .lefta{
+    width: 185px;
+    text-align: justify;
+    margin-left: 20px;
+    color: rgb(39 11 17);
+    position: absolute;
+    top: 260px;
+    
+}
+.banner_bg .right-text{
+    font-family: 'Arvo', serif;
+    font-size: 3em;
+    margin-left: 20px;
+    padding-top: 50px;
+    display: block;
+    position: absolute;
+    left: 1067px;
+    bottom: 258px;
+    
+}
+
+.banner_bg .righta{
+    width: 200px;
+    text-align: justify;
+    color: rgb(39 11 17);
+    position: relative;
+    margin-right: 46px;
+    
 }
